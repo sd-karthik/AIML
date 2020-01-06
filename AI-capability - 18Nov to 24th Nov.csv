@@ -1,0 +1,18 @@
+Topic,Link,Duration,Week
+Introduction to Artificial intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,30 min,1
+Supervised learning,https://en.wikipedia.org/wiki/Supervised_learning,30 min,1
+Unsupervised learning,https://en.wikipedia.org/wiki/Unsupervised_learning,30 min,1
+Deep learning,http://deeplearning.net/tutorial/deeplearning.pdf,1 hour,1
+Convolution neural netowork,https://www.youtube.com/watch?v=LxfUGhug-iQ,1 hour,2
+"Scaler ,matrics, tensor",https://www.youtube.com/watch?v=JY_lUOWClEY,1 hour,2
+Eigenvalues and Eigenvectors,"https://www.youtube.com/watch?v=DzqE7tj7eIM
+https://www.khanacademy.org/math/linear-algebra/alternate-bases/eigen-everything/v/linear-algebra-introduction-to-eigenvalues-and-eigenvectors","20 min
+10 min",2
+Probability distribution,https://www.youtube.com/watch?v=UnzbuqgU2LE,30 min,2
+numerical computation,https://www.youtube.com/watch?v=XlYD8jn1ayE,1 hour,3
+Hyperparameters and Validation Sets,https://www.youtube.com/watch?v=dA_x2xHTYQE,15 min,3
+Deep Feedforward Networks,https://www.youtube.com/watch?v=oFa0Xe6fcBk,1.3 hour,4
+Regularization for Deep Learning,https://www.youtube.com/watch?v=iuJgyiS7BKM,5 min,4
+,https://www.coursera.org/lecture/deep-neural-network/other-regularization-methods-Pa53F,10 min,4
+Dataset Augmentation .,https://www.youtube.com/watch?v=Y_fJIdv6WDY,15 min,5
+Noise Robustness . .,https://arxiv.org/pdf/1810.03913.pdf,1.3 Hour,5

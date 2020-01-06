@@ -1,0 +1,44 @@
+
+
+Neuarl networks are smarter than traditional algorithms for identifying objects in images.
+
+Input layer-> hidden layers -> output layers
+
+more than 2 layers -> Deep neural networks
+less than 2 layers -> shallow neural networks 
+
+Neural networks are task specific programming.
+identifying a dog in a crowd.
+training the model with dog images and try to identify by giving the probabilities of the presence of dog.
+
+Neural networks learns by itself by reiterating the process by backpropagation. It adjusts the weightage of the features and checks the accuracies accordingly.
+
+OpenCV -> yolo package is a deep learning model.
+
+Object classification and detection:
+
+* Data should be scaled before applying it to model.
+
+1. Input layer
+2. Hidden layer 1
+3. Hidden layer 2
+4. output layer
+5. compile the ANN
+loss function is to measure the model accuracy and predcit the best model.
+classifier.compile(
+
+6. fitting the model
+classifier.fit(x_train,y_train, batch_size=10, nb_epoch = 100)
+Early 
+
+Geeks for Geeks
+Activation functions - 
+step function:
+relu function:
+signmoid function:
+tangent function
+
+Training the /neural network :
+Error :
+if the error increases with the weight or if it increases with the decrease in the weight. 
+

@@ -1,0 +1,51 @@
+Convolve is moving(slide) the filter spacial through input volume.
+
+Eg: 32x32x3 image, 5x5x3 filter is convolved(or dot product) will give 28x28x1 activation map.
+
+This process is repeated with 6 filters of different colors.
+
+32x32x3 ------------>  28x28x6  -------------->   24x24x10 ----- -->
+(image)	5x5x1 filters (new image) 5x5x6 filters		   CONV ReLU
+	(CONV ReLU)	 blue
+      sliding on image
+
+Each filter is called activation map.
+
+
+Image -> Conv -> ReLu (rectifier layer or thresholding) -> pooling ....-> Fully connected layer
+
+Filter F = 3x3, Image N = 7x7
+
+7x7 --------> 5x5   
+  stride = 1
+
+7x7 ---------> 3x3 
+  stride = 2
+
+stride 1 => (N - F)/1 = 7-3/1=4
+stride 2 => (7-3)/2 = 3
+stride 3 => (7-3)/3 = 2.33 Not possible.
+
+stride is shifting space of filter.
+
+Zero padding:
+padding will give same output as the input after convolution.
+(F-1)/2 to preserve the size spatially.
+Eg: 
+F = 3 => zero pad with 1
+F = 5 => zero pad with 2
+F = 7 => zero pad with 3
+
+
+Output:
+32x32x3,
+10, 5x5 filters with stride 1, pad 2
+
+(32 + 2*2 -5)/1 +1 = 32 spatially
+32x32x10 output image
+
+Weights/paramters:
+each filter has 5*5*3 + 1 =76 params (1 bias)
+=> 76*10 =760
+
+
